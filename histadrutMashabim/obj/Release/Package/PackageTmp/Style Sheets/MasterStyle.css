@@ -1,0 +1,169 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('../pictures/background.png');   
+    font-family: 'Heebo', sans-serif;
+    background-repeat: no-repeat;
+
+}
+.p2 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.p1 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*#countdown {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    background-color: antiquewhite;
+    font-size: 45px;
+    
+}
+*/
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.links {
+    text-decoration: none;
+    color: #0B7189;
+    padding: 10px 16px;
+    font-size: 25px;
+    border-radius: 7px;
+}
+.links:hover {
+    color: black;
+}
+.navbar {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    backdrop-filter: blur(6px) sepia(80%);
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+}
+
+table p {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+table {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    bottom: 6vh;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+th, td {
+    padding: 10px 13px;
+}
+
+table tbody tr {
+    font-size: 17px;
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.times {
+    background-color: #7BD389;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Heebo';
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #F6F4F3;
+}
+
+#timer {
+    color: #F6F4F3;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Heebo';
+    font-size: .7em;
+    letter-spacing: 5px;
+}
+
+.days, .hours, .minutes, .seconds {
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.days {
+    background: #D0CD94;
+    color: #183059;
+}
+
+.hours {
+    background: #AAC0AA;
+    color: #183059;
+}
+
+.minutes {
+    background: #736372;
+}
+
+.seconds {
+    background: #A18276;
+}  
+
+.numbers {
+    color: #183059;
+    font-size: 4em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    }
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="histadrutMashabim.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>בין שמיים לארץ</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="../Style%20Sheets/MasterStyle.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+    <div class="navbar">
+        <a class="links" href="Time.aspx">לו"ז הסמינר</a>
+        <a class="links" href="List.aspx">רשימת ציוד</a>
+        <a class="links" href="Default.aspx">דף הבית</a>
+    </div>
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
